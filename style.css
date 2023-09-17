@@ -187,6 +187,7 @@ ul {
   padding: 50px 150px;
   border-radius: 13px;
   background-color: #3882f6;
+  flex-wrap: wrap;
 }
 
 .inside_left_texts{
