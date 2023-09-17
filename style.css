@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* 
+=========================
+>>> Header And Nav bar
+=========================
+*/
+/* styling the header */
+
+header {
+  border: 2px solid;
+  background-color: #1f2937;
+}
+
+/* styling the section */
+
+section {
+  width: 80%;
+  margin: auto;
+}
+
+/* styling the nav bar */
+
+.header_logo {
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* styling list */
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: #e5e7eb;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* styling About */
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10% 10%;
+}
+/* texts */
+
+.about_text h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf9;
+}
+.about_text p {
+  color: #f9faf9;
+  opacity: 0.8;
+  font-size: 18px;
+}
+.about_text button {
+  all: unset;
+  margin-top: 20px;
+  background-color: #3882f6;
+  border-radius: 7px;
+  padding: 6px 25px;
+  color: #f9faf8;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.about_text button:hover {
+  background-color: #f9faf8;
+  color: #3882f6;
+}
+
+/* image */
+.about_image {
+  width: 500px;
+  height: 250px;
+}
+.about_image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 
+=========================
+>>> Section two Random informations
+=========================
+*/
+.section_random_information {
+  width: 70%;
+  margin: 0 auto 140px;
+}
+
+.section_random_information h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px 0;
+}
+
+/*  boxs informations */
+
+.boxs_information {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* informations img + p */
+
+.information {
+  text-align: center;
+}
+
+.information img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.information p {
+  opacity: 0.8;
+}
+
+/* 
+=========================
+>>> Section three  quote
+=========================
+*/
+
+.section_three {
+  background-color: #e5e5e5;
+}
+
+.inside_section_three {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 150px 0;
+}
+
+.section_three h5 {
+  align-self: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+
+.section_three h3 {
+  align-self: flex-end;
+  margin-right: 300px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* 
+=========================
+>>> Section four card
+=========================
+*/
+
+.inside_card{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  margin: 130px auto;
+  padding: 50px 150px;
+  border-radius: 13px;
+  background-color: #3882f6;
+}
+
+.inside_left_texts{
+  color: #e5e5e5;
+}
+
+.inside_card button{
+  all: unset;
+  padding: 10px 50px;
+  border: 2px solid #e5e5e5;
+  border-radius: 13px;
+  color: #f9faf8;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.inside_card button:hover{
+  border: 2px solid #3882f6;
+  background-color: #e5e5e5;
+  color: #1f2937;
+}
+
+/* 
+=========================
+>>> Footer
+=========================
+*/
+
+footer{
+  background-color: #1f2937;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px 0;
+  color: #e5e7eb;
+}
